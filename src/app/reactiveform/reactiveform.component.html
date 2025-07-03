@@ -1,0 +1,16 @@
+<h1>Registration Form</h1>
+<form [formGroup]="countryForm" (ngSubmit)="onSubmit()">
+    <label for="name">Name:</label>
+    <input id="name" formControlName="name" type="text"/>
+    <br>
+
+    <label for="country">Country:</label>
+    <input id="country" formControlName="country" type="text"/>
+    <br>
+
+    <label for="capital">Capital:</label>
+    <input id="capital" formControlName="capital" type="text"/>
+    <br>
+
+    <button type="submit">Submit</button>
+</form>
