@@ -6,7 +6,7 @@ import { CountrytableComponent } from "./countrytable/countrytable.component";
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [ReactiveformComponent, CountrytableComponent],
+  imports: [ CountrytableComponent,RouterOutlet],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

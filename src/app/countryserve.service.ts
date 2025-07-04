@@ -25,7 +25,7 @@ export class CountryserveService {
    addcountry(countryData: any){
   this.countries.push(countryData);
   console.log(countryData)
-}
+  }
   searchCountries(keyword: string) {
     if (!keyword.trim()) return this.countries;
     return this.countries.filter(
